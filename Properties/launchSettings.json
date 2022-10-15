@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Wallpaper Carousel (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "Wallpaper Carousel (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

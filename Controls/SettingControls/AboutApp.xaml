@@ -1,0 +1,29 @@
+﻿<UserControl
+    x:Class="Wallpaper_Carousel.Controls.SettingControls.AboutApp"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Wallpaper_Carousel.Controls.SettingControls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <StackPanel Spacing="8">
+        
+        <TextBlock FontWeight="Bold">关于此应用</TextBlock>
+        
+        <StackPanel>
+            <TextBlock>桌面画报 1.0.0</TextBlock>
+            <TextBlock>© 2022 XXXXXXXXX。保留所有权利。</TextBlock>
+        </StackPanel>
+        
+        <StackPanel Margin="-12,8,0,0">
+            <HyperlinkButton>XXXXXXXXX 软件许可条款</HyperlinkButton>
+            <HyperlinkButton>XXXXXXXXX 服务协议</HyperlinkButton>
+            <HyperlinkButton>XXXXXXXXX 隐私声明</HyperlinkButton>
+        </StackPanel>
+        
+        <StackPanel Margin="0,8,0,0" Spacing="16">
+            <Button MinWidth="120">发送反馈</Button>
+        </StackPanel>
+        
+    </StackPanel>
+</UserControl>

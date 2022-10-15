@@ -1,0 +1,39 @@
+﻿<Page
+    x:Class="Wallpaper_Carousel.Pages.Carousel"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Wallpaper_Carousel.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <ScrollViewer>
+        <StackPanel Margin="48">
+            <Grid>
+                <TextBlock VerticalAlignment="Center" Text="订阅源"/>
+                <CommandBar Background="Transparent" IsOpen="False" DefaultLabelPosition="Right">
+                    <AppBarButton Icon="Add" Label="添加订阅源"/>
+                </CommandBar>
+            </Grid>
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,32" Spacing="12">
+                <Border Width="200" Height="120" Background="{ThemeResource CardBackgroundFillColorDefault}" CornerRadius="6"/>
+                <Border Width="200" Height="120" Background="{ThemeResource CardBackgroundFillColorDefault}" CornerRadius="6"/>
+                <Border Width="200" Height="120" Background="{ThemeResource CardBackgroundFillColorDefault}" CornerRadius="6"/>
+                <Border Width="200" Height="120" Background="{ThemeResource CardBackgroundFillColorDefault}" CornerRadius="6"/>
+                <Border Width="200" Height="120" Background="{ThemeResource CardBackgroundFillColorDefault}" CornerRadius="6"/>
+            </StackPanel>
+            <Grid>
+                <TextBlock VerticalAlignment="Center" Text="自定义幻灯片"/>
+                <CommandBar Background="Transparent" IsOpen="False" DefaultLabelPosition="Right">
+                    <AppBarButton Icon="Add" Label="添加自定义幻灯片"/>
+                </CommandBar>
+            </Grid>
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,32" Spacing="12">
+                <Border Width="200" Height="120" Background="{ThemeResource CardBackgroundFillColorDefault}" CornerRadius="6"/>
+                <Border Width="200" Height="120" Background="{ThemeResource CardBackgroundFillColorDefault}" CornerRadius="6"/>
+                <Border Width="200" Height="120" Background="{ThemeResource CardBackgroundFillColorDefault}" CornerRadius="6"/>
+                <Border Width="200" Height="120" Background="{ThemeResource CardBackgroundFillColorDefault}" CornerRadius="6"/>
+                <Border Width="200" Height="120" Background="{ThemeResource CardBackgroundFillColorDefault}" CornerRadius="6"/>
+            </StackPanel>
+        </StackPanel>
+    </ScrollViewer>
+</Page>

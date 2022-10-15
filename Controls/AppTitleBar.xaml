@@ -1,0 +1,12 @@
+﻿<UserControl
+    x:Class="Wallpaper_Carousel.Controls.AppTitleBar"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Wallpaper_Carousel.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Grid Padding="12,8,8,8">
+        <TextBlock x:Name="TextBlock_AppName" VerticalAlignment="Center" FontSize="12"/>
+    </Grid>
+</UserControl>
